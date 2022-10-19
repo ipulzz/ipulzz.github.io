@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: url(./v2osk-1Z2niiBPg5A-unsplash.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container-blur{
+    width: 600px;
+    height: 500px;
+    background-color: rgba(240, 229, 229, 0.164);
+    backdrop-filter: blur(10px);
+    display: flex;    
+    border-radius: 12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.container-blur h2{
+    color: rgb(8, 9, 9);
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+.container-blur h3{
+    color: rgb(232, 234, 236);
+    font-family: sans-serif;
+
+}
+
+.welcome{
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-family: sans-serif
+}
+
+.container-blur input{
+    width: 250px;
+    height: 25px;
+}
+
+.container-blur button{
+    width: 100px;
+    height: 20px;
+}
+
+.ini-salah{
+    
+}

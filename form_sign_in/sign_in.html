@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Halaman Sing In</title>
+    <link rel="stylesheet" href="sign_in.css">
+</head>
+<body>
+   <h1 class="welcome">WELCOME</h1>
+    <div class="container-blur">
+        <h2> Sign in </h2>
+        <h4>Please input your username and your password</h4>
+        <h3>Username</h3>
+        <input type="text" id="username" autocomplete="off">
+        <h3>Password</h3>
+        <input type="password" id="password" autocomplete="off">
+        <button type="button" onclick="login()">sign In</button>
+    </div>
+    <script>
+        function login(){
+            var user=document.getElementById("username").value;
+            var pass=document.getElementById("password").value;
+            
+            if (user == "ipul" && pass == "123"){
+                window.location.href="home.html";
+            }else{
+                alert("username dan password anda alah!");
+            }
+        }
+    </script>
+</body>
+</html>
